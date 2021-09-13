@@ -109,7 +109,7 @@ function hienThiTable(mang) {
                 <td>
                     <button class="btn btn-danger" onclick="xoaNV('${item.taiKhoan}')">Xoá</button>
 
-                    <button class="btn btn-info" data-toggle="modal" data-target="#myModal" onclick="xemChiTiet('${item.taiKhoan}')">Xem</button>
+                    <button class="btn btn-info mt-1" data-toggle="modal" data-target="#myModal" onclick="xemChiTiet('${item.taiKhoan}')">Xem</button>
                 </td>
             </tr>`
     });
